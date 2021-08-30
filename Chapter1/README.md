@@ -80,6 +80,10 @@ client \
 do echo "Welcome $i times"; done' \
 > pod.yaml
 
+```
+Create the Pod from the YAML file:
+
+```
 kubectl create -f pod.yaml --namespace=ckad
 
 ```
