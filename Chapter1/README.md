@@ -55,6 +55,14 @@ spec:
       value: admin
 
 ```
+Apply the changes:
+
+```
+kubectl create -f nginx-pod.yaml --namespace=ckad
+
+```
+
+
 6. Open a shell for the nginx container and inspect the contents of the current directory ls -l.
 
 ```
