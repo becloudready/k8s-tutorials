@@ -15,7 +15,7 @@ kubectl get pod nginx --namespace=ckad -o wide
 
 ```
 
-3. . Create a temporary Pod that uses the busybox image to execute a wget command inside of the container. The wget command should access the endpoint exposed by the nginx container. You should see the HTML response body rendered in the terminal.
+3. Create a temporary Pod that uses the busybox image to execute a wget command inside of the container. The wget command should access the endpoint exposed by the nginx container. You should see the HTML response body rendered in the terminal.
 
 ```
 kubectl run busybox --image=busybox --restart=Never --
