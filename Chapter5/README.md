@@ -1,4 +1,4 @@
-# Chapter 4: Exercises
+# Chapter 5: Exercises
 1. Create three Pods that use the image nginx. The names of the Pods should be pod-1, pod-2, and pod-3. Assign the label tier=frontend to pod-1 and the label tier=backend to pod-2 and pod-3. All pods should also assign the label team=artemidis.
 
 Start by creating the Pods. You can assign labels at the time of creation:
