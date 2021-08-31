@@ -1,3 +1,5 @@
+# Chapter 2: Exercises
+
 1. Create a directory with the name config. Within the directory, create two files. The first file should be named db.txt and contain the key-value pair password=mypwd. The second file is named ext-service.txt and should define the key-value pair api_key=LmLHbYhsgWZwNifiqaRorH8T.
 
 ```
